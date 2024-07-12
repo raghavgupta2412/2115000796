@@ -1,0 +1,56 @@
+.game-container{
+    background: linear-gradient(#380898,#080248,#0F063D);
+    width: 80%;
+    border-radius: 2em;
+    padding: 2em;
+    position: relative;
+    top: -5em;
+}
+.game-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-head-div{
+    padding-left: 2em;
+}
+.game-head-div h3{
+    font-size: 3em;
+    font-family: Brush Script MT, Brush Script Std, Lucida Calligraphy, Lucida Handwriting, Apple Chancery, cursive;
+}
+.game-head-div p{
+    font-size: 1em;
+}
+.game-img-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    gap: .5em;
+}
+.game-img-div img{
+    height: 3em;
+    cursor: pointer;
+    border-radius: 5em;
+}
+.game-img-div img:hover{
+    background: linear-gradient(#fd1d51,#fcb345);
+}
+.game-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    padding:2em 0;
+}
+.game-images img{
+    height: 13em;
+    width: 10em;
+    border-radius: .5em;
+    transition: .3s;
+}
+.game-images img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

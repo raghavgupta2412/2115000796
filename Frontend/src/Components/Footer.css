@@ -1,0 +1,82 @@
+.footer-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 100vw;
+    background-image: url("../assets/mine_background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    background-color: #380898;
+    background-image: url("../assets/players-week-bg.png");
+    padding: 2em;
+    border: 1px solid white;
+    border-radius: .5rem;
+    position: relative;
+    top: -3rem;
+}
+.subscribe-div h3{
+    font-size: 2em;
+}
+.subscribe-div .input-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #460AC4;
+    background-color: #080248;
+    padding: .5em;
+    border-radius: 5em;
+    width: 50vh;
+}
+.input-div p{
+    color: #808080c7;
+}
+.input-div a{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 1em;
+    padding: .5em 1em;
+    background-image: linear-gradient(#fd1d51,#fcb345);
+    cursor: pointer;
+}
+.input-div a:hover{
+    transition: .3s;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+.footer-div h5{
+    font-size: 1.2em;
+    padding-bottom: 1rem;
+}
+.footer-div p{
+    font-size: 1em;
+    padding:.2em;
+    border-bottom: 1px dashed white;
+}
+.footer-div p:hover{
+    color: #07DEDB;
+    padding-left: .5rem;
+}
+.copyright-div{
+    width: 100vw;
+    border-top: 1px solid #808080c7;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: center;
+}

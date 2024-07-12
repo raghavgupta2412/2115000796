@@ -1,0 +1,63 @@
+.home-page{
+    background-image: url("../assets/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+    width: 100vw;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-container h4{
+    color: #07DEDB;
+    font-size: 2em;
+    /* font-family:Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy; */
+    /* font-family: Brush Script MT, Brush Script Std, Lucida Calligraphy, Lucida Handwriting, Apple Chancery, cursive; */
+    /* font-family: Fira Mono, DejaVu Sans Mono, Menlo, Consolas, Liberation Mono, Monaco, Lucida Console, monospace; */
+    /* font-family: Lucida Bright, Lucida Fax, Palatino, Palatino Linotype, Palladio, URW Palladio, serif;     */
+}
+.home-container h3{
+    color: #ffffff;
+    font-size: 3em;
+    padding: .3em;
+     /* font-family:Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy; */
+    font-family: Brush Script MT, Brush Script Std, Lucida Calligraphy, Lucida Handwriting, Apple Chancery, cursive;
+}
+.home-container p{
+    color: #ffffff;
+    text-align: center;
+    max-width: 55vh;
+    font-size: .8em;
+}
+.home-btn{
+    text-decoration: none;
+    border-radius: 1em;
+    margin-top: 2em;
+    padding: .5em 1em;
+    background-image: linear-gradient(#fd1d51,#fcb345);
+    color: #ffffff;
+    font-size: .8em;
+}
+/* .home-btn:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+.image-div{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    position: relative;
+    top: -5em;
+}
+.boy, .girl{
+    height: 60vh;
+}
+.versus{
+    height: 30vh;
+}

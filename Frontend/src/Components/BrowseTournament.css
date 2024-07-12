@@ -1,0 +1,164 @@
+.browse-page{
+    background: radial-gradient(#380898,#11064A,#0F063D);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 5em;
+    width: 100vw;
+}
+.browse-page h3{
+    font-size: 3em;
+    font-family: Brush Script MT, Brush Script Std, Lucida Calligraphy, Lucida Handwriting, Apple Chancery, cursive;
+}
+.browse-page p{
+    max-width: 70vh;
+    text-align: center;
+    font-size: 1em;
+}
+
+.add-tour{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60vw;
+}
+.add-btn{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 1em;
+    padding: .5em 1em;
+    background-image: linear-gradient(#fd1d51,#fcb345);
+    cursor: pointer;
+}
+.add-btn:hover{
+    transition: .3s;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.tournament-card{
+    padding: 1em;
+    background-color: #0F063D;
+    border-radius: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+    border: 2px solid #380898;
+}
+.tournament-card img{
+    height: 14em;
+    width: 12em;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 1em; */
+}
+.break-line{
+    color: #0F063D;
+    width: 25em;
+}
+.card-details h4{
+    font-size: 1.5em;
+}
+.card-details .tags{
+    margin: 1em 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+.card-details .tags p{
+    background-color: #380898;
+    padding: .5em;
+    font-size: .8em;
+}
+.card-details .tags span{
+    color: #07DEDB;
+}
+.match-details{
+    margin: 1.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.match-details div{
+    border: 1px solid #380898;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    gap: .2em;
+    padding: .5em;
+    border-radius: .2em;
+}
+.match-details div span{
+    font-size: .7em;
+}
+.match-details div p{
+    font-size: 1em;
+    color: #07DEDB;
+}
+
+.edit-tournament{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20em;
+}
+.edit-tournament a{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 1em;
+    padding: .5em 1em;
+    background-image: linear-gradient(#fd1d51,#fcb345);
+    cursor: pointer;
+}
+.edit-tournament a:hover{
+    transition: .3s;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-price{
+    border: 1px solid #380898;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    gap: .5em;
+    padding: .5em;
+    border-radius: .2em;
+}
+.price-tag{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    font-size: .8em;
+    color: #61A91E;
+}
+.price-tag img{
+    height: 1.5em;
+    width: 1.5em;
+}
+.card-price h4{
+    font-size: 1.8em;
+}
+.card-price a{
+    text-decoration: none;
+    border-radius: 1em;
+    padding: .5em 1em;
+    background-image: linear-gradient(#fd1d51,#fcb345);
+    color: #ffffff;
+    font-size: .8em;
+}
+.card-price p{
+    font-size: .8em;
+    width: 10em;
+}
